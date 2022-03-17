@@ -13,7 +13,7 @@ This package includes the following parts.
 ogClust.WJL package files are in `ogClust.WJL/` folder, You can install by copying and paste the following code into R
 
 ```
-devtools::install_github("YujiaLi1994/ogClust.WJL/ogClust.WJ")
+devtools::install_github("YujiaLi1994/ogClust.WJL/ogClust.WJL")
 ```
 
 ## Sample code for continous outcomes
