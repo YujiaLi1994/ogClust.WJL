@@ -1,6 +1,11 @@
 # ogClust.WJL
 
-This package includes the following parts. First, ogClust() and ogClust_Surv are the outcome-guided clustering method with weighted joint likelihood approach for continuous and survival outcome respectively. Rsquare() is the function to calculate the Rsquare of genes and continuous outcome. Predict_test() are the function to predict the cluster label for the testing/validation data based on the ogClust model from training/discovery data and the gene expression from testing/validation data. Sim_continous() and Sim_surv() are the functions to simulate datasets with continous or survival outcome. region_lambda() and region_lambda_surv() are the functions to generate efficient grids of lambda for a given K and outcome weight w. Four real datsets (two lung disease datasets and two triple negative breast cancer datasets) are also included in this package.
+This package includes the following parts. 
+* ogClust() and ogClust_Surv are the outcome-guided clustering method with weighted joint likelihood approach for continuous and survival outcome respectively. 
+* Rsquare() is the function to calculate the Rsquare of genes and continuous outcome. Predict_test() are the function to predict the cluster label for the testing/validation data based on the ogClust model from training/discovery data and the gene expression from testing/validation data. 
+* Sim_continous() and Sim_surv() are the functions to simulate datasets with continous or survival outcome. 
+* region_lambda() and region_lambda_surv() are the functions to generate efficient grids of lambda for a given K and outcome weight w. 
+* Four real datsets (two lung disease datasets and two triple negative breast cancer datasets) are also included in this package.
 
 
 
@@ -8,7 +13,7 @@ This package includes the following parts. First, ogClust() and ogClust_Surv are
 ogClust.WJL package files are in `ogClust.WJL/` folder, You can install by copying and paste the following code into R
 
 ```
-devtools::install_github("YujiaLi1994/S4/S4")
+devtools::install_github("YujiaLi1994/ogClust.WJL/ogClust.WJ")
 ```
 
 ## Sample code for continous outcomes
