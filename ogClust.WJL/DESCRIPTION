@@ -1,0 +1,20 @@
+Package: ogClust.WJL
+Title: Outcome-guided Disease Subtyping for High-dimensional Omics
+	Data Based on Weighted Joint Likelihood Approach
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Yujia",
+           family = "Li",
+           role = c("aut", "cre"),
+           email = "yul178@pitt.edu",
+           comment = c(ORCID = "0000-0002-1024-9243"))
+Description: This package implements outcome-guided clustering method with weighted joint likelihood approach for both continuous (ogClust) and survival data (ogClust_Surv), along with the data from two lung disease applications (GSE47460_GPL6480 and GSE47460_GPL14550) and two triple negative breast cancer applications (METABRIC and SCAN-B). These four datasets are used to show the superior performance of ogClust.WJL method in the paper. A function for search lambda grid for a given K is also included in the package. The code for reproducing the result in the paper is included at https://github.com/YujiaLi1994/ogClust.WJL
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    survival
+Depends: 
+    R (>= 2.10)
