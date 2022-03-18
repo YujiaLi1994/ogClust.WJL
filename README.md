@@ -15,6 +15,8 @@ ogClust.WJL package files are in `ogClust.WJL/` folder, You can install by copyi
 ```
 devtools::install_github("YujiaLi1994/ogClust.WJL/ogClust.WJL")
 ```
+Alternatively, download/clone the ogClust.WJL folder into your local and use `devtools::install()` to install locally. 
+
 
 ## Sample code for continous outcomes
 
